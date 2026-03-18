@@ -1,0 +1,702 @@
+[
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2025",
+    "Sex":"Persons",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2025",
+    "Sex":"Persons",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2025",
+    "Sex":"Persons",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2025",
+    "Sex":"Male",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":164.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2025",
+    "Sex":"Male",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":842.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2025",
+    "Sex":"Male",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2025",
+    "Sex":"Female",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":80.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2025",
+    "Sex":"Female",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2025",
+    "Sex":"Female",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2025",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":2.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2025",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":80.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2025",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2025",
+    "Sex":"Persons",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2025",
+    "Sex":"Persons",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2025",
+    "Sex":"Persons",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2025",
+    "Sex":"Male",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":161.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2025",
+    "Sex":"Male",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":848.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2025",
+    "Sex":"Male",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2025",
+    "Sex":"Female",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":80.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2025",
+    "Sex":"Female",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2025",
+    "Sex":"Female",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2025",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":4.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2025",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":69.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2025",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2024",
+    "Sex":"Persons",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2024",
+    "Sex":"Persons",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2024",
+    "Sex":"Persons",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2024",
+    "Sex":"Male",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":168.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2024",
+    "Sex":"Male",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":816.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2024",
+    "Sex":"Male",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2024",
+    "Sex":"Female",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":81.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2024",
+    "Sex":"Female",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2024",
+    "Sex":"Female",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2024",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":5.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2024",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":121.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2024",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2024",
+    "Sex":"Persons",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2024",
+    "Sex":"Persons",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2024",
+    "Sex":"Persons",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2024",
+    "Sex":"Male",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":175.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2024",
+    "Sex":"Male",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":821.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2024",
+    "Sex":"Male",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2024",
+    "Sex":"Female",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":83.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2024",
+    "Sex":"Female",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2024",
+    "Sex":"Female",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2024",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":7.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2024",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":152.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2024",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2024",
+    "Sex":"Persons",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2024",
+    "Sex":"Persons",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2024",
+    "Sex":"Persons",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2024",
+    "Sex":"Male",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":188.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2024",
+    "Sex":"Male",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":787.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2024",
+    "Sex":"Male",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2024",
+    "Sex":"Female",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":85.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2024",
+    "Sex":"Female",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2024",
+    "Sex":"Female",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2024",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":7.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2024",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":172.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2024",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2024",
+    "Sex":"Persons",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2024",
+    "Sex":"Persons",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2024",
+    "Sex":"Persons",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2024",
+    "Sex":"Male",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":188.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2024",
+    "Sex":"Male",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":800.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2024",
+    "Sex":"Male",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2024",
+    "Sex":"Female",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":88.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2024",
+    "Sex":"Female",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2024",
+    "Sex":"Female",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2024",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":7.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2024",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":147.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/03\/2024",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2023",
+    "Sex":"Persons",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2023",
+    "Sex":"Persons",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2023",
+    "Sex":"Persons",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2023",
+    "Sex":"Male",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":198.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2023",
+    "Sex":"Male",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":771.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2023",
+    "Sex":"Male",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2023",
+    "Sex":"Female",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":94.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2023",
+    "Sex":"Female",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2023",
+    "Sex":"Female",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2023",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":10.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2023",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":157.0,
+    "Data description":"Number of Staff",
+    "Date":"31\/12\/2023",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2023",
+    "Sex":"Persons",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2023",
+    "Sex":"Persons",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2023",
+    "Sex":"Persons",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2023",
+    "Sex":"Male",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":189.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2023",
+    "Sex":"Male",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":774.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2023",
+    "Sex":"Male",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2023",
+    "Sex":"Female",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":94.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2023",
+    "Sex":"Female",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2023",
+    "Sex":"Female",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2023",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":8.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2023",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":174.0,
+    "Data description":"Number of Staff",
+    "Date":"30\/09\/2023",
+    "Sex":"Other\/unknown\/not stated",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2023",
+    "Sex":"Persons",
+    "Full-time or part-time":"All"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2023",
+    "Sex":"Persons",
+    "Full-time or part-time":"Full-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2023",
+    "Sex":"Persons",
+    "Full-time or part-time":"Part-time"
+  },
+  {
+    "Data values":null,
+    "Data description":"Number of Staff",
+    "Date":"30\/06\/2023",
+    "Sex":"Male",
+    "Full-time or part-time":"All"
+  }
+]
