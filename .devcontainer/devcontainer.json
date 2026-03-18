@@ -1,0 +1,43 @@
+{
+  "name": "Stats Wales Workshop",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "editor.formatOnSave": true,
+        "notebook.lineNumbers": "on",
+        "github.copilot.enable": {
+          "*": true
+        }
+      }
+    }
+  },
+  "postCreateCommand": "pip install requests pandas matplotlib plotly notebook ipykernel",
+  "remoteUser": "vscode",
+  "forwardPorts": [8888, 8080],
+  "portsAttributes": {
+    "8888": {
+      "label": "Jupyter Notebook",
+      "onAutoForward": "openBrowser"
+    },
+    "8080": {
+      "label": "Dashboard Preview",
+      "onAutoForward": "notify"
+    }
+  }
+}
