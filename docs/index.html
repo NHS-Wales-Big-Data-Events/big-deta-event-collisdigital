@@ -443,9 +443,16 @@
       const chartType = document.getElementById("chart-type").value;
       const cols = Object.keys(rows[0]);
 
-      // Heuristic: first string-ish column = labels, first numeric column = values
-      const labelCol = cols.find(c => typeof rows[0][c] === "string") || cols[0];
-      const valueCol = cols.find(c => parseStatValue(rows[0][c]) !== null && c !== labelCol) || cols[1];
+      // Find the value column: the one where the most rows parse to a number.
+      // (The API always puts 'Data values' first, but it arrives as a string.)
+      const valueCol = cols.slice().sort((a, b) => {
+        const aCount = rows.filter(r => parseStatValue(r[a]) !== null).length;
+        const bCount = rows.filter(r => parseStatValue(r[b]) !== null).length;
+        return bCount - aCount;
+      })[0];
+
+      // Label column: first column that is never numeric, excluding valueCol.
+      const labelCol = cols.find(c => c !== valueCol && rows.every(r => parseStatValue(r[c]) === null)) || cols.find(c => c !== valueCol) || cols[0];
 
       const labels = rows.map(r => String(r[labelCol]));
       const values = rows.map(r => parseStatValue(r[valueCol]));
