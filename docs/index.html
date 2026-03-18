@@ -318,6 +318,16 @@
       "#9467bd", "#8c564b", "#e377c2", "#bcbd22", "#17becf"
     ];
 
+    // Stats Wales values contain annotation codes like [c], [t], [e] and comma-formatted numbers.
+    // Strip them before parsing: return null for annotation-only cells (e.g. " [c]").
+    function parseStatValue(v) {
+      if (v === null || v === undefined) return null;
+      const cleaned = String(v).replace(/\[.*?\]/g, "").replace(/,/g, "").trim();
+      if (cleaned === "") return null;
+      const n = parseFloat(cleaned);
+      return isNaN(n) ? null : n;
+    }
+
     function setStatus(msg, loading = false) {
       const el = document.getElementById("status");
       el.innerHTML = loading
@@ -394,7 +404,7 @@
 
       // Find numeric columns for summary stats
       const numericCols = cols.filter(c =>
-        rows.some(r => typeof r[c] === "number" || !isNaN(parseFloat(r[c])))
+        rows.some(r => parseStatValue(r[c]) !== null)
       );
 
       const cards = [
@@ -404,7 +414,7 @@
 
       if (numericCols.length) {
         const col = numericCols[0];
-        const nums = rows.map(r => parseFloat(r[col])).filter(n => !isNaN(n));
+        const nums = rows.map(r => parseStatValue(r[col])).filter(n => n !== null);
         const total = nums.reduce((a, b) => a + b, 0);
         cards.push({
           label: `Total (${col})`,
@@ -435,10 +445,10 @@
 
       // Heuristic: first string-ish column = labels, first numeric column = values
       const labelCol = cols.find(c => typeof rows[0][c] === "string") || cols[0];
-      const valueCol = cols.find(c => !isNaN(parseFloat(rows[0][c])) && c !== labelCol) || cols[1];
+      const valueCol = cols.find(c => parseStatValue(rows[0][c]) !== null && c !== labelCol) || cols[1];
 
       const labels = rows.map(r => String(r[labelCol]));
-      const values = rows.map(r => parseFloat(r[valueCol]) || 0);
+      const values = rows.map(r => parseStatValue(r[valueCol]));
 
       document.getElementById("chart-title").textContent =
         `${valueCol} by ${labelCol}`;
