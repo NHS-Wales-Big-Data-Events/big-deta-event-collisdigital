@@ -246,7 +246,7 @@
           type="text"
           id="dataset-id"
           placeholder="e.g. 0ff18b56-0a4f-4ac3-a198-197aa48cc9e1"
-          value="572def66-eb0d-4527-b29f-7b2f9c2f7c6a"
+          value="f4953ed2-1d1e-4a81-95b9-f85e3873a680"
         />
       </div>
       <div class="control-group">
@@ -277,6 +277,10 @@
     <!-- Chart -->
     <div class="chart-card" id="chart-card" style="display:none;">
       <h2 id="chart-title">Chart</h2>
+      <div style="margin-bottom:0.75rem;">
+        <label for="label-col" style="font-size:0.85rem;font-weight:600;margin-right:0.5rem;">Horizontal axis:</label>
+        <select id="label-col" onchange="rerenderChart()"></select>
+      </div>
       <div id="chart-container">
         <canvas id="myChart"></canvas>
       </div>
@@ -311,6 +315,7 @@
 
   <script>
     let chartInstance = null;
+    let currentRows = [];
 
     // Welsh Government brand colours
     const COLOURS = [
@@ -386,6 +391,8 @@
         }
 
         setStatus(`✅ Loaded ${rows.length} records from Stats Wales.`);
+        currentRows = rows;
+        populateLabelSelector(rows);
         renderSummaryCards(rows);
         renderChart(rows);
         renderTable(rows);
@@ -396,6 +403,22 @@
       } finally {
         btn.disabled = false;
       }
+    }
+
+    function populateLabelSelector(rows) {
+      const cols = Object.keys(rows[0]);
+      const valueCol = cols.slice().sort((a, b) =>
+        rows.filter(r => parseStatValue(r[b]) !== null).length -
+        rows.filter(r => parseStatValue(r[a]) !== null).length
+      )[0];
+      const textCols = cols.filter(c => c !== valueCol && rows.every(r => parseStatValue(r[c]) === null));
+
+      const sel = document.getElementById("label-col");
+      sel.innerHTML = textCols.map(c => `<option value="${c}">${c}</option>`).join("");
+    }
+
+    function rerenderChart() {
+      if (currentRows.length) renderChart(currentRows);
     }
 
     function renderSummaryCards(rows) {
@@ -451,8 +474,10 @@
         return bCount - aCount;
       })[0];
 
-      // Label column: first column that is never numeric, excluding valueCol.
-      const labelCol = cols.find(c => c !== valueCol && rows.every(r => parseStatValue(r[c]) === null)) || cols.find(c => c !== valueCol) || cols[0];
+      // Label column: read from the selector (populated after data loads).
+      const labelColSel = document.getElementById("label-col");
+      const labelCol = (labelColSel && labelColSel.value) ||
+        (cols.find(c => c !== valueCol && rows.every(r => parseStatValue(r[c]) === null)) || cols.find(c => c !== valueCol) || cols[0]);
 
       const labels = rows.map(r => String(r[labelCol]));
       const values = rows.map(r => parseStatValue(r[valueCol]));
