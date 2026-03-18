@@ -326,21 +326,10 @@
     }
 
     function buildApiUrl(datasetId, area, year) {
-      const sortBy = JSON.stringify([
-        { columnName: "Year", direction: "ASC" },
-        { columnName: "Measure", direction: "DESC" }
-      ]);
-
-      const filters = [];
-      if (area.trim()) filters.push({ columnName: "Area", values: [area.trim()] });
-      if (year.trim()) filters.push({ columnName: "Year", values: [year.trim()] });
-
       const params = new URLSearchParams({
         lang: "en-gb",
         page_number: 1,
         page_size: 100,
-        sort_by: sortBy,
-        ...(filters.length && { filter: JSON.stringify(filters) })
       });
 
       return `https://api.stats.gov.wales/v1/${datasetId.trim()}/view?${params}`;
@@ -371,7 +360,15 @@
         }
 
         const json = await response.json();
-        const rows = Array.isArray(json) ? json : (json.value || json.items || []);
+
+        // API returns {headers: [{name},...], data: [[val,...],...]}
+        let rows;
+        if (json.headers && json.data) {
+          const colNames = json.headers.map(h => h.name);
+          rows = json.data.map(row => Object.fromEntries(colNames.map((name, i) => [name, row[i]])));
+        } else {
+          rows = Array.isArray(json) ? json : (json.value || json.items || []);
+        }
 
         if (!rows.length) {
           setStatus("⚠️ No data returned. Try adjusting the filters.");
